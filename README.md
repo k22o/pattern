@@ -1,4 +1,4 @@
 # pattern
-パターン情報学のソース
-１ kNN
-2 kmeans
+パターン情報学のソース;
+１ kNN;
+2 kmeans;
