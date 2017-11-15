@@ -17,13 +17,11 @@ from mpl_toolkits.mplot3d import Axes3D
  8. origin:        multi-valued discrete
  9. car name:      string (unique for each instance)
 '''
-dataset = np.loadtxt("auto-mpg.csv",delimiter=",",usecols=(0,3,4))
-x_data = np.array([dataset[:,1],dataset[:,2]])
-
+dataset = np.loadtxt("auto-mpg.csv",delimiter=",",usecols=(0,3,4,2,5))
+x_data = np.array([dataset[:,1],dataset[:,2],dataset[:,3],dataset[:,4]])
 w0 = np.ones((1,len(dataset)))
 x_T = np.r_[w0,x_data]
 x = x_T.T
-
 t = np.array(dataset[:,0])
 w = (np.linalg.inv( np.dot(x_T,x)))
 w = np.dot(w,x_T)
