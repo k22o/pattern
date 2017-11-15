@@ -1,5 +1,5 @@
 # pattern
-パターン情報学のソース;
-	1 kNN;
-	2 kmeans;
-	3 regression;
+パターン情報学<br>		
+1 kNN<br>		
+2 kmeans<br>
+3 regression<br>
