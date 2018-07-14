@@ -6,7 +6,7 @@
 2. kmeans<br>
 3. linear regression<br>
 4. softmax regression<br>
-5. neural netwotk (+ knn)<br>
+5. neural network (+ knn)<br>
 
 <br>
 ロボットインテリジェンス<br>
